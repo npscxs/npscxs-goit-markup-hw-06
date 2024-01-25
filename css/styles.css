@@ -426,7 +426,6 @@ button {
   padding: 96px 16px;
 }
 .box-logo {
-  /* margin-right: 120px; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -972,8 +971,28 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+  /**------------ Footer--------------- */
+  .container-footer {
+    padding-left: 0;
+    gap: unset;
+    width: 100%;
+  }
+  .footer-input-field {
+    width: unset;
+  }
+  .box-logo {
+    margin-right: 120px;
+    align-items: flex-start;
+  }
+  .box-soc-media {
+    padding-right: 80px;
+  }
+  .footer-input {
+    max-width: 264px;
+    width: 264px;
+  }
 }
-
+/**---------------------------------------------------------max1157 */
 @media screen and (max-width: 1157px) {
   .features-icon-background,
   .text-hover {
@@ -994,6 +1013,7 @@ button {
       0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   }
 }
+/**-----------------------------------------------------------max767 */
 @media screen and (max-width: 767px) {
   .navigation-list,
   .adress-list {
