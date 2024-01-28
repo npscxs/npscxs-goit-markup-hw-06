@@ -877,12 +877,12 @@ button {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1128px;
-    margin: 156px auto;
+    /* margin: 156px auto; */
   }
   /**------------ Header--------------- */
   .container-header {
-    padding: 0;
-    margin: 0 156px;
+    /* padding: 0; */
+    /* margin: 0 156px; */
   }
   .top-line {
     width: auto;
